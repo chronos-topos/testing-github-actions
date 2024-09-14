@@ -1,0 +1,8 @@
+name: Run Tests
+
+on: push
+jobs:
+    continuous-integration:
+        runs-on:
+        steps:
+            - run:
